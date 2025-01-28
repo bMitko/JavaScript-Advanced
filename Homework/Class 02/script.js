@@ -15,12 +15,13 @@ function info() {
                            </li>`
     }
     for (let i = 0; i < parsedResult.length; i++) {
+        let infos = document.getElementsByClassName("infos")
         let ul = document.getElementsByClassName("user")[i]
         ul.addEventListener("click", function (e) {
                 e.preventDefault()
-                if (document.getElementsByClassName("infos")[i].textContent == "") {
-                    document.getElementsByClassName("infos")[i].innerHTML = ""
-                    document.getElementsByClassName("infos")[i]
+                if (infos[i].textContent == "") {
+                    infos[i].innerHTML = ""
+                    infos[i]
                         .innerHTML += `<li>Email: ${parsedResult[i].email}</li>
                                    <li>Phone: ${parsedResult[i].phone}</li>
                                     <li>Address:<br/>
@@ -31,7 +32,7 @@ function info() {
                                     &nbsp; geo - lat: (${parsedResult[i].address.geo.lat}) / lng: (${parsedResult[i].address.geo.lng})</li>`
                 }
                 else
-                    document.getElementsByClassName("infos")[i].innerHTML = ""
+                    infos[i].innerHTML = ""
             })
     }
 }
