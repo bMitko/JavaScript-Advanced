@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(242, 231, 231);
+    display: flexbox;
+    justify-self: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+label,
+select,
+button,
+#borders {
+    font-size: larger;
+}
+
+button {
+    border-style: solid;
+    padding: 10px;
+    background-color: rgb(50, 213, 67);
+    border-color: rgb(50, 213, 67);
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    display: flexbox;
+    justify-self: center;
+    justify-content: center;
+    width: 140px;
+    height: 42px;
+}
+
+select {
+    border-style: solid;
+    padding: 10px;
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 12px;
+    display: flexbox;
+    justify-self: center;
+    justify-content: center;
+}
+
+.answer, label{
+    font-weight:800
+}
+
+.neighbours{
+    text-decoration: underline;
+}
