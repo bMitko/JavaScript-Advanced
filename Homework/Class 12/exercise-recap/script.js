@@ -1,6 +1,6 @@
-import { User, users, generateID, addNewUsers, displayMessage } from "./scripts/users"; //users.js
-import { registerUser } from "./scripts/register"; // register.js
-import { setLoggedInUser, getLoggedInUser, loginUser, logout } from "./scripts/login&logout"; // login&logout.js
+// import { User, users, generateID, addNewUsers, displayMessage } from "./scripts/users"; //users.js
+// import { registerUser } from "./scripts/register"; // register.js
+// import { setLoggedInUser, getLoggedInUser, loginUser, logout } from "./scripts/login&logout"; // login&logout.js
 
 // DOM Elements
 const html = {
